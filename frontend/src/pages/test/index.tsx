@@ -117,13 +117,16 @@ const Test: NextPage = () => {
           if (res.status === 201) {
             const result = await getInterviewResult(res.data['interview_id'])
             setModalOpen(true)
-            if (result !== null) {
+            setTimeout(() => {
+              if (result !== null) {
+                setModalOpen(false)
+                push({
+                  pathname: '/result',
+                  query: { id: res.data['interview_id'] },
+                })
+              }
               setModalOpen(false)
-              push({
-                pathname: '/result',
-                query: { id: res.data['interview_id'] },
-              })
-            }
+            }, 5000)
           }
         })
       })
