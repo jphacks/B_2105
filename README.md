@@ -34,7 +34,7 @@ https://youtu.be/iM4eFFg3s1M
 ## 開発技術
 
 ### アーキテクチャー
-![Screen Shot 2021-10-30 at 15 20 14](https://user-images.githubusercontent.com/62434815/139522832-5fbeba6c-1ffc-45e7-9cb0-053e9be1ba1a.png)
+<img width="412" alt="image" src="https://user-images.githubusercontent.com/80163799/142715585-7b319e2f-1616-4e1f-916d-e7c2c4b21c56.png">
 
 ### 活用した技術
 #### API・データ
@@ -52,6 +52,6 @@ https://youtu.be/iM4eFFg3s1M
 
 ### 独自技術
 #### 印象予測機能
-* Face API を活用して画像から感情のデータを獲得した。そして、「誠実そう」、「自信ある」、「リーダーシップありそう」、「一緒に働きたい」、「緊張しているように見える」、「不安そうに見える」と言ったアンケートからの印象データを目的変数とし、重回帰分析を行うことで、感情データから印象を予測できるモデルを作成した。
+* Face API を活用して画像から感情のデータを獲得した。そして、「誠実そう」、「自信ある」、「リーダーシップありそう」、「一緒に働きたい」、「緊張しているように見える」、「不安そうに見える」とiいったアンケートからの印象データを目的変数とし、重回帰分析を行うことで、感情データから印象を予測できるモデルを作成した。
 
 <img width="644" alt="Screen Shot 2021-11-20 at 9 31 33" src="https://user-images.githubusercontent.com/78252529/142713352-203ec54b-1e4f-47f5-941d-c516c473e41c.png">
